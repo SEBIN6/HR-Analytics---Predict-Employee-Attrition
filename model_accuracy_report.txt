@@ -1,0 +1,29 @@
+Model Evaluation Report
+========================
+
+Model Used: Logistic Regression
+
+Accuracy: 0.84
+
+Classification Report:
+-----------------------
+                 precision    recall  f1-score   support
+
+ No Attrition       0.88       0.91       0.89       278
+    Attrition       0.72       0.66       0.69        72
+
+    accuracy                           0.84       350
+   macro avg       0.80       0.78       0.79       350
+weighted avg       0.84       0.84       0.84       350
+
+Confusion Matrix:
+-----------------
+[ [253   25]
+  [ 24   48] ]
+
+Interpretation:
+---------------
+- The model achieved 84% accuracy.
+- Precision for predicting 'Attrition' is 72%, meaning when the model predicts someone will leave, it's correct 72% of the time.
+- Recall for 'Attrition' is 66%, so it identifies 66% of the actual leavers.
+- The confusion matrix shows 48 true positives and 24 false negatives.
